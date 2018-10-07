@@ -23,8 +23,8 @@ def decimateRGBpic(image, decimatingFactor):
 	return img_smol, deltaT
 
 print("\n Decimating Left and Right Eye")
-imgL_smol, timeL = decimateRGBpic(imgL,5)
-imgR_smol, timeR = decimateRGBpic(imgR,5)
+imgL_smol, timeL = decimateRGBpic(imgL,6)
+imgR_smol, timeR = decimateRGBpic(imgR,6)
 print("Decimation Time: "+str(timeL+timeR)+' s')
 
 #show images in their new native size
